@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes meu amor</title>
+    <link rel="icon" href="images/fita.jpg">
+    <link rel="stylesheet" href="css/filmes.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="barra-nav"> 
+        <a href="index.html">Inicio</a>
+        <a href="musicasmeuamor.html">Musicas</a>
+        <a href="galeria.html">Fotos</a>
+        <a href="calendario.html">Datas</a>
+        <a href="filmes.html">Filmes</a>
+    </nav>
+
+    <header class="header">
+        <h1>Nossos Filmes</h1>
+        <hr>
+    </header>
+    <div class="container">
+    <div class="filmes">
+        <div class="filme">
+                    <img src="imagem-filme/panico4.webp">
+                    <h2>Pânico 4</h2>
+                    <p>1° filme que vimos juntos</p>
+                    <h4>Nota danniel:</h4>
+                    <input id="nota1" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button>Salvar</button>
+                    <h4>Nota luisa:</h4>
+                    <input id="nota" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button>Salvar</button>
+        </div>
+        <div class="filme">
+            <img src="imagem-filme/esperf.jpg">
+            <h2>Escolha Perfeita</h2>
+            <p>2° filme que vimos</p>
+            <h4>Nota danniel:</h4>
+            <input id="nota1-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+            <button id="salvar1-danniel">Salvar</button>
+            <h4>Nota luisa:</h4>
+            <input id="nota1-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+            <button id="salvar1-luisa">Salvar</button>
+        </div>
+        
+        <div class="filme">
+                    <img src="imagem-filme/esperf2.webp">
+                    <h2>Escolha Perfeita 2</h2>
+                    <p>3° filme que vimos</p>
+                    <h4>Nota danniel:</h4>
+                    <input id="nota2-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button id="salvar2-danniel">Salvar</button>
+                    <h4>Nota luisa:</h4>
+                    <input id="nota2-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button id="salvar2-luisa">Salvar</button>
+        </div>
+        <div class="filme">
+                    <img src="imagem-filme/jvemchamas.jpg">
+                    <h2>Jogos Vorazes em chamas</h2>
+                    <p>4° filme que vimos</p>
+                    <h4>Nota danniel</h4>
+                    <input id="nota3-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button id="salvar3-danniel">Salvar</button>
+                    <h4>Nota luisa:</h4>
+                    <input id="nota3-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button id="salvar3-luisa">Salvar</button>
+        </div>
+        <div class="filme">
+                    <img src="imagem-filme/panico6.webp">
+                    <h2>Pânico 6</h2>
+                    <p>5° filme que vimos</p>
+                    <h4>Nota danniel</h4>
+                    <input id="nota4-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button onclick="p6()" id="salvar4-danniel">Salvar</button>
+                    <h4>Nota luisa:</h4>
+                    <input id="nota4-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+                    <button onclick="p6()" id="salvar4-luisa">Salvar</button>
+        </div>
+        <div class="filme">
+            <img src="imagem-filme/hsm.jpg">
+            <h2>High School Musical</h2>
+            <p>6° filme que vimos</p>
+            <h4>Nota danniel</h4>
+            <input id="nota5-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+            <button onclick="p6()" id="salvar5-danniel">Salvar</button>
+            <h4>Nota luisa:</h4>
+            <input id="nota5-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+            <button onclick="p6()" id="salvar5-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/tbm.jpg">
+    <h2>Teen Beach Movie</h2>
+    <p>7° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota6-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar6-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota6-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar6-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/tbm2.jpg">
+    <h2>Teen Beach Movie 2</h2>
+    <p>8° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota7-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar7-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota7-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar7-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/mal.webp">
+    <h2>Malévola</h2>
+    <p>9° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota8-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar8-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota8-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar8-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/hpfilosofal.jpg">
+    <h2>Harry Potter e a Pedra Filosofal</h2>
+    <p>10° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota9-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar9-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota9-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar9-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/euqueria[.jpg">
+    <h2>Eu queria ter a sua vida</h2>
+    <p>11° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota10-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar10-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota10-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar10-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/hpsecreta.webp">
+    <h2>Harry Potter e a Câmara Secreta</h2>
+    <p>12° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota11-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar11-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota11-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar11-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/hpaskabam.jpg">
+    <h2>Harry Potter e o Prisioneiro de Azkaban</h2>
+    <p>13° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota12-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar12-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota12-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar12-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/Camp_Rock.JPG">
+    <h2>Camp Rock</h2>
+    <p>14° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota13-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar13-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota13-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar13-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/esposa.jpg">
+    <h2>Esposa de Mentirinha</h2>
+    <p>15° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota14-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar14-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota14-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar14-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/calice.jpg">
+    <h2>Harry Potter e o Cálice de Fogo</h2>
+    <p>16° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota15-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar15-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota15-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar15-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/fenixordem.jpg">
+    <h2>Harry Potter e a Ordem da Fênix</h2>
+    <p>17° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota16-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar16-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota16-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar16-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/barbie1.jpg">
+    <h2>Barbie e o Castelo de diamante</h2>
+    <p>18° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota17-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar17-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota17-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar17-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/barbie2.jpg">
+    <h2>Barbie escola de princesas</h2>
+    <p>19° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota18-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar18-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota18-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar18-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/tkfp.jpg">
+    <h2>Tinker Bell fadas e piratas</h2>
+    <p>20° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota19-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar19-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota19-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar19-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/tkmn.jpg">
+    <h2>Tinker Bell e o monstro da terra do nunca</h2>
+    <p>21° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota20-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar20-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota20-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar20-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/tkmf.jpg">
+    <h2>Tinker Bell uma aventura no mundo das fadas</h2>
+    <p>22° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota21-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar21-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota21-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar21-luisa">Salvar</button>
+</div>
+<div class="filme">
+    <img src="imagem-filme/cindnova.jpg">
+    <h2>A nova cinderela</h2>
+    <p>23° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota22-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar22-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota22-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar22-luisa">Salvar</button>
+</div>
+
+<div class="filme">
+    <img src="imagem-filme/jvesperanca.jpg">
+    <h2>Jogos Vorazes: A Esperança parte 1</h2>
+    <p>24° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota23-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar23-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota23-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar23-luisa">Salvar</button>
+</div>
+
+<div class="filme">
+    <img src="imagem-filme/milesMol.jpg">
+    <h2>Homem Aranha no AranhaVerso</h2>
+    <p>25° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota24-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar24-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota24-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar24-luisa">Salvar</button>
+</div>
+
+<div class="filme">
+    <img src="imagem-filme/DomT.jpg">
+    <h2>Velozes e Furiosos 10</h2>
+    <p>26° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota25-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar25-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota25-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar25-luisa">Salvar</button>
+</div>
+
+<div class="filme">
+    <img src="imagem-filme/jvfinal.jpg">
+    <h2>Jogos Vorazes: A esperança O final</h2>
+    <p>27° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota26-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar26-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota26-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar26-luisa">Salvar</button>
+</div>
+
+<div class="filme">
+    <img src="imagem-filme/spider.jpeg">
+    <h2>Homem Aranha através do aranhaverso</h2>
+    <p>28° filme que vimos</p>
+    <h4>Nota danniel</h4>
+    <input id="nota27-danniel" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar27-danniel">Salvar</button>
+    <h4>Nota luisa:</h4>
+    <input id="nota27-luisa" type="number" min="0" max="10" step="0.1" placeholder="Minha Nota">
+    <button onclick="p6()" id="salvar27-luisa">Salvar</button>
+</div>
+
+</div>
+    
+</body>
+<footer class="rodape">
+            <nav class=" rodape-nav"> 
+                <a href="index.html">Inicio</a>
+                <a href="musicasmeuamor.html">Musicas</a>
+                <a href="galeria.html">Fotos</a>
+                <a href="calendario.html">Datas</a>
+                <a href="filmes.html">Filmes</a> 
+                  <p class="paragrafo">
+                Todos os direitos desse site estão destinados para a namorada mais perfeita de todas. <br>
+                <a target="_blank" href="https://www.instagram.com/luisafujimoto/">@luisafujimoto  </a><i class='bx bxs-heart' ></i> <i id="blue" class='bx bxs-heart' ></i> <a target="_blank" href="https://www.instagram.com/danniel_lcosta/">@danniel_lcosta</a>
+                </p>   
+                </nav>  
+</footer>
+<script src="javascript/filmezada.js"></script>
+
+</html>

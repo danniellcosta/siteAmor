@@ -1,0 +1,160 @@
+  /* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+/* estilos padrão */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Instrument Serif', serif;
+    background-color: #FFC4D6;
+  }
+
+  .header h1 {
+    color: #03045E;
+    margin-left: 20px;  
+  }
+  
+  hr {
+    color: #03040E;
+  }
+  
+  /* estilos da barra de navegação */
+.barra-nav {
+    background-color: #FFC4D6;
+    padding-bottom: 10px;
+    float: right;
+    line-height: 60px;
+    height: 10px;
+  }
+  
+  .barra-nav a {
+    margin: 10px;
+    font-size: large;
+    color: #03045E;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .barra-nav a:hover {
+    background-color: #FFA6C1;
+    border-radius: 5px;
+  }
+  .barra-nav a:active {
+    color: #e5e5e5;
+  }
+  
+  /* Estilo básico para a página */
+body {
+	background-color: #F8F8F8;
+	font-family: Arial, sans-serif;
+}
+
+
+/* Estilo para a lista de filmes */
+
+
+.filmes {
+	display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 28px;
+	flex-wrap: wrap;
+}
+
+.filme {
+  color: #03045E;
+	margin: 10px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #CCCCCC;
+	width: 200px;
+	height: 400px;
+	text-align: center;
+}
+
+.filme img {
+	max-width: 150px;
+	max-height: 200px;
+  border-radius: 5px;
+}
+
+.filme h2 {
+  background-color: #CCCCCC;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+  border-radius: 5px;
+}
+
+.filme input{
+  background-color: #CCCCCC;
+  color: #03045E;
+}
+
+.filme button{
+  background-color: #CCCCCC;
+  border-radius: 5px;
+}
+
+.filme h4{
+  background-color: white ;
+  text-align: center;
+}
+
+.filme p {
+  border-radius: 5px;
+  background-color: #CCCCCC;
+	margin-top: 5px;
+	font-size: 14px;
+}
+  
+  /*estilos do rodape*/
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
+    width: 100%;
+}
+.rodape-nav a:active{
+    color:white;
+}
+.rodape-nav{
+    line-height: 50px;
+    background-color: #FFA6C1;
+    margin: 10px;
+    font-size: 30px;
+    color: #03045E;
+    text-align: center;
+    
+}
+.rodape-nav a{
+  color: #03045E;
+    margin: 10px;
+    background-color: #FFA6C1;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+.rodape-nav a:hover{
+    background-color: #FFC4D6;
+    border-radius: 5px;
+}
+.rodape-nav i{
+  background-color: #FFA6C1;
+}
+
+#blue{
+  color: blue;
+}
+.paragrafo{
+  font-size: 20px;
+  background-color: #FFA6C1;
+
+}
+
+
+@media screen and (max-width:1024px){
+  .filmes{
+    grid-template-columns: 100px 100px 100px;
+    gap: 12em;
+  }  
+}

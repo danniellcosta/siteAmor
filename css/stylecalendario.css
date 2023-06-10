@@ -1,0 +1,160 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+/* estilos padrão */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Instrument Serif', serif;
+    background-color: #FFC4D6;
+  }
+
+  .header h1 {
+    color: #03045E;
+    margin-left: 20px;  
+  }
+  
+  hr {
+    color: #03040E;
+  }
+  /* estilos da barra de navegação */
+.barra-nav {
+  background-color: #FFC4D6;
+  padding-bottom: 10px;
+  float: right;
+  line-height: 60px;
+  height: 10px;
+}
+
+.barra-nav a {
+  margin: 10px;
+  font-size: large;
+  color: #03045E;
+  text-align: center;
+  text-decoration: none;
+}
+
+.barra-nav a:hover {
+  background-color: #FFA6C1;
+  border-radius: 5px;
+}
+.barra-nav a:active {
+  color: #e5e5e5;
+}
+
+/* Estilos para o calendário */
+.calendar {
+  margin-bottom: 20px;
+}
+
+.calendar h2 {
+  text-align: center;
+  color: orange;
+  background-color: #03045E;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar a{
+  background-color: #ccc;
+}
+
+.calendar a:hover{
+  background-color: #03045E;
+}
+
+.calendar th,
+.calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.calendar th {
+  background-color: #f2f2f2;
+}
+
+.calendar td {
+  background-color: #fff;
+}
+
+/* Estilos para o grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-container .calendar {
+  border: 2px solid #ccc;
+}
+
+
+
+.grid-mes{
+  width: 500px;
+  margin-left: 518px;
+}
+.grid-mes h2{
+  color: blueviolet;
+}
+
+  /*estilos do rodape*/
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
+    width: 100%;
+}
+.rodape-nav a:active{
+    color:white;
+}
+.rodape-nav{
+    line-height: 50px;
+    background-color: #FFA6C1;
+    margin: 10px;
+    font-size: 30px;
+    color: #03045E;
+    text-align: center;
+    
+}
+.rodape-nav a{
+  color: #03045E;
+    margin: 10px;
+    background-color: #FFA6C1;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+.rodape-nav a:hover{
+    background-color: #FFC4D6;
+    border-radius: 5px;
+}
+.rodape-nav i{
+  background-color: #FFA6C1;
+}
+
+#blue{
+  color: blue;
+}
+.paragrafo{
+  font-size: 20px;
+  background-color: #FFA6C1;
+
+}
+
+@media screen and (max-width: 1024px){
+  .grid-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .grid-mes{
+    margin-left: 1px;
+  }
+  .calendar{
+    width: 500px;
+    margin-left: 200px;
+  }
+ 
+}
