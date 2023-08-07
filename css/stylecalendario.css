@@ -158,3 +158,26 @@
   }
  
 }
+
+@media screen and (max-width:844px){
+  .barra-nav{
+    display: none;
+  }
+
+  .header h1{
+    text-align: center;
+  }
+
+  .calendar{
+    width: 500px;
+    margin-left: 0;
+  }
+
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
+    width: 100%;
+  }
+
+
+}

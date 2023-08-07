@@ -77,9 +77,9 @@
 
  /*estilos do rodape*/
  .rodape{
-  margin-top: 40em;
+  margin-top: 70em;
   background-color: #FFA6C1;
-  position: absolute;
+  position:absolute;
   width: 100%;
 }
 .rodape-nav a:active{

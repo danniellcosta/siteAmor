@@ -112,9 +112,8 @@
 }
 
   /* Estilos Responsivos */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   /* estilos do header responsivos */
-
   .barra-nav .container {
     display: inline;
 }
@@ -140,22 +139,28 @@
   }
 
   /* estilos do rodapé responsivos */
-  .rodape {
-    position: static;
-    margin-top: 50px;
-  }
-  
-  .div-rodape {
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
     width: 100%;
-    height: auto;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .barra-nav{
+    display: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    margin: 10px;
   }
   
-  .div-rodape h6 {
-    line-height: 30px;
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
+    width: 100%;
   }
-  
-  .rodape-nav {
-    line-height: 30px;
-  }
-  
 }

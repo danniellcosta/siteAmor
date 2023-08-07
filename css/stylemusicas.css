@@ -76,45 +76,45 @@
     color: #03045E;
   }
    /*estilos do rodape*/
-   .rodape{
-    margin-top: 100px;
-    background-color: #FFA6C1;
-    position: absolute;
-    width: 100%;
+ .rodape{
+  margin-top: 100px;
+  background-color: #FFA6C1;
+  position: sticky;
+  width: 100%;
 }
 .rodape-nav a:active{
-    color:white;
+  color:white;
 }
 .rodape-nav{
-    line-height: 50px;
-    background-color: #FFA6C1;
-    margin: 10px;
-    font-size: 30px;
-    color: #03045E;
-    text-align: center;
-    
+  line-height: 50px;
+  background-color: #FFA6C1;
+  margin: 10px;
+  font-size: 30px;
+  color: #03045E;
+  text-align: center;
+  
 }
 .rodape-nav a{
-  color: #03045E;
-    margin: 10px;
-    background-color: #FFA6C1;
-    border-radius: 5px;
-    text-decoration-line: none;
+color: #03045E;
+  margin: 10px;
+  background-color: #FFA6C1;
+  border-radius: 5px;
+  text-decoration-line: none;
 }
 .rodape-nav a:hover{
-    background-color: #FFC4D6;
-    border-radius: 5px;
+  background-color: #FFC4D6;
+  border-radius: 5px;
 }
 .rodape-nav i{
-  background-color: #FFA6C1;
+background-color: #FFA6C1;
 }
 
 #blue{
-  color: blue;
+color: blue;
 }
 .paragrafo{
-  font-size: 20px;
-  background-color: #FFA6C1;
+font-size: 20px;
+background-color: #FFA6C1;
 
 }
 
@@ -203,6 +203,21 @@
     margin: 1em 2em 0 1em;
   }
   
+}
+
+@media screen and (max-width:844px) {
+  .grid-container{
+    grid-template-columns: repeat(1, 2fr) ;
+    grid-gap: 50px;
+    margin: 3em 2em;
+  }
+
+  .barra-nav{
+    display: none;
+  }
+.header h1{
+  text-align: center;
+}
 }
 
 
@@ -335,6 +350,22 @@
 
 .timeless{
   background-color: #FFA6C1;
+  color: #03045E;
+  cursor: pointer;
+  border: 2px solid #03045E;
+  padding: 0 2em;
+}
+
+.radiante{
+  background-color: #FFA6C1;
+  color: #03045E;
+  cursor: pointer;
+  border: 2px solid #03045E;
+  padding: 0 2em;
+}
+
+.trilha{
+   background-color: #FFA6C1;
   color: #03045E;
   cursor: pointer;
   border: 2px solid #03045E;

@@ -158,3 +158,25 @@ body {
     gap: 12em;
   }  
 }
+
+@media screen and (max-width:844px){
+  .barra-nav{
+    display: none;
+  }
+  
+  .header h1{
+    text-align: center;
+  }
+
+  .filmes{
+    grid-template-columns: 50px 50px;
+    gap: 10em;
+  }  
+
+  .rodape{
+    background-color: #FFA6C1;
+    position: absolute;
+    width: 100%;
+  }
+
+}

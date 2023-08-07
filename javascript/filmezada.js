@@ -740,3 +740,153 @@ salvar27DannielButton.addEventListener("click", () => {
 salvar27LuisaButton.addEventListener("click", () => {
   localStorage.setItem("nota27-luisa", nota27LuisaInput.value);
 });
+
+const nota28DannielInput = document.querySelector("#nota28-danniel");
+const nota28LuisaInput = document.querySelector("#nota28-luisa");
+const salvar28DannielButton = document.querySelector("#salvar28-danniel");
+const salvar28LuisaButton = document.querySelector("#salvar28-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota28DannielSalva = localStorage.getItem("nota28-danniel");
+let nota28LuisaSalva = localStorage.getItem("nota28-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota28DannielSalva !== null) {
+  nota28DannielInput.value = nota28DannielSalva;
+}
+if (nota28LuisaSalva !== null) {
+  nota28LuisaInput.value = nota28LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar28DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota28-danniel", nota28DannielInput.value);
+});
+salvar28LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota28-luisa", nota28LuisaInput.value);
+});
+
+const nota29DannielInput = document.querySelector("#nota29-danniel");
+const nota29LuisaInput = document.querySelector("#nota29-luisa");
+const salvar29DannielButton = document.querySelector("#salvar29-danniel");
+const salvar29LuisaButton = document.querySelector("#salvar29-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota29DannielSalva = localStorage.getItem("nota29-danniel");
+let nota29LuisaSalva = localStorage.getItem("nota29-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota29DannielSalva !== null) {
+  nota29DannielInput.value = nota29DannielSalva;
+}
+if (nota29LuisaSalva !== null) {
+  nota29LuisaInput.value = nota29LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar29DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota29-danniel", nota29DannielInput.value);
+});
+salvar29LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota29-luisa", nota29LuisaInput.value);
+});
+
+const nota30DannielInput = document.querySelector("#nota30-danniel");
+const nota30LuisaInput = document.querySelector("#nota30-luisa");
+const salvar30DannielButton = document.querySelector("#salvar30-danniel");
+const salvar30LuisaButton = document.querySelector("#salvar30-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota30DannielSalva = localStorage.getItem("nota30-danniel");
+let nota30LuisaSalva = localStorage.getItem("nota30-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota30DannielSalva !== null) {
+  nota30DannielInput.value = nota30DannielSalva;
+}
+if (nota30LuisaSalva !== null) {
+  nota30LuisaInput.value = nota30LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar30DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota30-danniel", nota30DannielInput.value);
+});
+salvar30LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota30-luisa", nota30LuisaInput.value);
+});
+
+const nota31DannielInput = document.querySelector("#nota31-danniel");
+const nota31LuisaInput = document.querySelector("#nota31-luisa");
+const salvar31DannielButton = document.querySelector("#salvar31-danniel");
+const salvar31LuisaButton = document.querySelector("#salvar31-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota31DannielSalva = localStorage.getItem("nota31-danniel");
+let nota31LuisaSalva = localStorage.getItem("nota31-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota31DannielSalva !== null) {
+  nota31DannielInput.value = nota31DannielSalva;
+}
+if (nota31LuisaSalva !== null) {
+  nota31LuisaInput.value = nota31LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar31DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota31-danniel", nota31DannielInput.value);
+});
+salvar31LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota31-luisa", nota31LuisaInput.value);
+});
+
+const nota32DannielInput = document.querySelector("#nota32-danniel");
+const nota32LuisaInput = document.querySelector("#nota32-luisa");
+const salvar32DannielButton = document.querySelector("#salvar32-danniel");
+const salvar32LuisaButton = document.querySelector("#salvar32-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota32DannielSalva = localStorage.getItem("nota32-danniel");
+let nota32LuisaSalva = localStorage.getItem("nota32-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota32DannielSalva !== null) {
+  nota32DannielInput.value = nota32DannielSalva;
+}
+if (nota32LuisaSalva !== null) {
+  nota32LuisaInput.value = nota32LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar32DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota32-danniel", nota32DannielInput.value);
+});
+salvar32LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota32-luisa", nota32LuisaInput.value);
+});
+
+const nota33DannielInput = document.querySelector("#nota33-danniel");
+const nota33LuisaInput = document.querySelector("#nota33-luisa");
+const salvar33DannielButton = document.querySelector("#salvar33-danniel");
+const salvar33LuisaButton = document.querySelector("#salvar33-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota33DannielSalva = localStorage.getItem("nota33-danniel");
+let nota33LuisaSalva = localStorage.getItem("nota33-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota33DannielSalva !== null) {
+  nota33DannielInput.value = nota33DannielSalva;
+}
+if (nota33LuisaSalva !== null) {
+  nota33LuisaInput.value = nota33LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar33DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota33-danniel", nota33DannielInput.value);
+});
+salvar33LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota33-luisa", nota33LuisaInput.value);
+});
