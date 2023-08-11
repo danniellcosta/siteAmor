@@ -169,9 +169,16 @@
   }
 
   .calendar{
-    width: 500px;
-    margin-left: 0;
+    width: 400px;
+    margin-left: 10px;
   }
+
+  .calendar th,
+.calendar td {
+  padding: 0;
+  text-align: center;
+  border: 1px solid #ccc;
+}
 
   .rodape{
     background-color: #FFA6C1;

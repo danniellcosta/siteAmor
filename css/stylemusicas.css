@@ -56,30 +56,11 @@
     color:black;
   }
 
-  .item{
-    width: 400px;
-    height: 500px;
-    background-color: #03045E;
-    color: white;
-    border:1 solid white;
-    padding: 20px;
-    font-size: 150%;
-  }
-
-  .grid-img{
-    margin-top:50px;
-    width: 200px;
-  }
-  
-
-  .overlay{
-    color: #03045E;
-  }
-   /*estilos do rodape*/
+ /*estilos do rodape*/
  .rodape{
   margin-top: 100px;
   background-color: #FFA6C1;
-  position: sticky;
+  position: absolute;
   width: 100%;
 }
 .rodape-nav a:active{
@@ -139,53 +120,12 @@ background-color: #FFA6C1;
   padding: 0;
 }
 
-.music-image .descricao {
-  position: absolute;
-  width: 400px;
-  height: 200px;
-  background-color: #03045E;
-  color: #FFC4D6;
-  padding: 10px;
-  bottom: 0;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius:10px;
-}
 
-.music-image h2 {
-  background-color: #03045E;
-  margin-top: 0;
-  font-size: 25px;
-}
 
-.music-image p{
-  background-color: #03045E;
-  font-size: 15px;
-}
 
-.music-image .play-button {
-  font-size: 30px;
-  color: #fff;
-  background-color: #1db954;
-  border: none;
-  margin-right: 25px;
-  border-radius: 50%;
-  width: 65px;
-  height: 60px;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.music-image i{
-  background-color: #03045E;
-  float: left;
-}
-.music-image .play-button i{
-  background-color: #1db954;
-  padding: 10px;
-  border-radius: 50px;
-  font-size: 50px;
-  
-}
+
+
+
 
 #blue{
   color: blue ;

@@ -77,7 +77,7 @@
 
  /*estilos do rodape*/
  .rodape{
-  margin-top: 70em;
+  margin-top: 90em;
   background-color: #FFA6C1;
   position:absolute;
   width: 100%;
@@ -118,5 +118,25 @@ background-color: #FFA6C1;
 
 }
 
+@media screen and (max-width:844px){
+.barra-nav{
+  display: none;
+}
+
+.header h1{
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 100px;
+  margin-top: 10px;
+  grid-gap: 20px;
+}
+
+.rodape{
+  margin-top: 150em;
+}
+}
 
 
