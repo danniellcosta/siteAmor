@@ -890,3 +890,53 @@ salvar33DannielButton.addEventListener("click", () => {
 salvar33LuisaButton.addEventListener("click", () => {
   localStorage.setItem("nota33-luisa", nota33LuisaInput.value);
 });
+
+const nota34DannielInput = document.querySelector("#nota34-danniel");
+const nota34LuisaInput = document.querySelector("#nota34-luisa");
+const salvar34DannielButton = document.querySelector("#salvar34-danniel");
+const salvar34LuisaButton = document.querySelector("#salvar34-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota34DannielSalva = localStorage.getItem("nota34-danniel");
+let nota34LuisaSalva = localStorage.getItem("nota34-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota34DannielSalva !== null) {
+  nota34DannielInput.value = nota34DannielSalva;
+}
+if (nota34LuisaSalva !== null) {
+  nota34LuisaInput.value = nota34LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar34DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota34-danniel", nota34DannielInput.value);
+});
+salvar34LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota34-luisa", nota34LuisaInput.value);
+});
+
+const nota35DannielInput = document.querySelector("#nota35-danniel");
+const nota35LuisaInput = document.querySelector("#nota35-luisa");
+const salvar35DannielButton = document.querySelector("#salvar35-danniel");
+const salvar35LuisaButton = document.querySelector("#salvar35-luisa");
+
+// Obter as notas salvas anteriormente do Local Storage, se existirem
+let nota35DannielSalva = localStorage.getItem("nota35-danniel");
+let nota35LuisaSalva = localStorage.getItem("nota35-luisa");
+
+// Preencher os inputs com as notas salvas anteriormente, se existirem
+if (nota35DannielSalva !== null) {
+  nota35DannielInput.value = nota35DannielSalva;
+}
+if (nota35LuisaSalva !== null) {
+  nota35LuisaInput.value = nota35LuisaSalva;
+}
+
+// Adicionar um evento de clique ao botão Salvar para salvar as notas no Local Storage
+salvar35DannielButton.addEventListener("click", () => {
+  localStorage.setItem("nota35-danniel", nota35DannielInput.value);
+});
+salvar35LuisaButton.addEventListener("click", () => {
+  localStorage.setItem("nota35-luisa", nota35LuisaInput.value);
+});

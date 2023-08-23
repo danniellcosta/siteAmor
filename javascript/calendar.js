@@ -102,3 +102,39 @@ function cinemaG(){
 function dia16F2033(){
     alert("O DIA QUE EU VOU TE PEDIR EM CASAMENTO (NA ISLANDIA)");
 }
+
+function maraca (){
+    alert("O DIA QUE FOMOS NO MARACANÃ");
+}
+
+function festaCem (){
+    alert("FOMOS NA FESTA JUNINA DO CEM");
+}
+
+function caragua () {
+    alert("FOMOS PARA CARAGUÁ");
+}
+
+function festaJc (){
+    alert("FOMOS NA FESTA DA FACUL DO DIOGO EM CARAGUÀ");
+}
+
+function festaFml(){
+    alert("DIA QUE TEVE A FESTA JULHINA DA SUA FAMILIA");
+}
+
+function barbie(){
+    alert("DIA QUE FOMOS VER BARBIE");
+}
+
+function paratiFml(){
+    alert("DIA QUE FOMOS EM PARATI COM SUA MÃE E SEUS IRMÃOS");
+}
+
+function anivH(){
+    alert("ANIVERSÁRIO DA HELENA FEIA");
+}
+
+function festivalPinga(){
+    alert("FESTIVAL DA PINGA EM PARATI");
+}
